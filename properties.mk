@@ -101,6 +101,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.mtk.vdec.waitkeyframeforplay=1 \
     ro.vendor.have_aeev_feature=1
 
+# Neural Networks
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.mtk_nn_support=1
+
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.st_nfc_ignore_addon_support=1 \

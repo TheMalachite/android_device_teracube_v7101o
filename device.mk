@@ -226,6 +226,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsensorndkbridge
 
+# Text classifier
+PRODUCT_PACKAGES += \
+    libtextclassifier_hash.vendor
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
