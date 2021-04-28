@@ -226,6 +226,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsensorndkbridge
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_vtservice
+
 # Text classifier
 PRODUCT_PACKAGES += \
     libtextclassifier_hash.vendor
