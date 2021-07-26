@@ -101,13 +101,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.kill_timeout_ms=100 \
     ro.lmk.use_minfree_levels=true \
     persist.vendor.duraspeed.support=1 \
-    persist.vendor.duraspeed.app.on=1 \
     persist.vendor.heavy.loading.support=1
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
-    vendor.mtk.vdec.waitkeyframeforplay=1
+    vendor.mtk.vdec.waitkeyframeforplay=9
 
 # Neural Networks
 PRODUCT_PROPERTY_OVERRIDES += \
