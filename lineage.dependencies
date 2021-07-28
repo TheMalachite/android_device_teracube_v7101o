@@ -1,0 +1,18 @@
+[
+ {
+    "repository": "TheMalachite/vendor_teracube_v7101o",
+    "target_path": "vendor/teracube/v7101o"
+ },
+ {
+    "repository": "TheMalachite/vendor_teracube_firmware",
+    "target_path": "vendor/teracube/firmware"
+ },
+ {
+    "repository": "TheMalachite/kernel_teracube_v7101o",
+    "target_path": "kernel/teracube/v7101o"
+ },
+ {
+    "repository": "PixelExperience/device_mediatek_sepolicy_vndr",
+    "target_path" : "device/mediatek/sepolicy_vndr"
+ }
+]
