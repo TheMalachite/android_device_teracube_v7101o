@@ -1,14 +1,14 @@
 [
  {
-    "repository": "TheMalachite/vendor_teracube_v7101o",
+    "repository": "android_vendor_teracube_v7101o",
     "target_path": "vendor/teracube/v7101o"
  },
  {
-    "repository": "TheMalachite/vendor_teracube_firmware",
+    "repository": "android_vendor_teracube_firmware",
     "target_path": "vendor/teracube/firmware"
  },
  {
-    "repository": "TheMalachite/kernel_teracube_v7101o",
+    "repository": "android_kernel_teracube_v7101o",
     "target_path": "kernel/teracube/v7101o"
  },
  {
