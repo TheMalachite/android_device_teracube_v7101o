@@ -26,6 +26,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-teracube
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=v7101o \
-    PRIVATE_BUILD_DESC="Teracube_One-user 10 QP1A.190711.020 q0mp1t1v1001bsp release-keys"
+    PRIVATE_BUILD_DESC="Teracube_One-user 10 QP1A.190711.020 q0mp1t1v1002bsp release-keys"
 
-BUILD_FINGERPRINT := Teracube/Teracube_One/Teracube_One:10/QP1A.190711.020/q0mp1t1v1001bsp:user/release-keys
+BUILD_FINGERPRINT := Teracube/Teracube_One/Teracube_One:10/QP1A.190711.020/q0mp1t1v1002bsp:user/release-keys

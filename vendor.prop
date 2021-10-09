@@ -83,7 +83,7 @@ ro.vendor.mtk_nn_support=1
 # Platform
 ro.vendor.mediatek.platform=MT6771
 ro.vendor.mediatek.version.branch=alps-mp-q0.mp1
-ro.vendor.mediatek.version.release=alps-mp-q0.mp1-V9.13.1_teracube.q0mp1.t1_v1001_bsp
+ro.vendor.mediatek.version.release=alps-mp-q0.mp1-V9.13.1_teracube.q0mp1.t1_v1002_bsp
 
 # Radio
 persist.radio.multisim.config=dsds
@@ -109,6 +109,7 @@ ro.vendor.mtk_embms_support=1
 ro.vendor.mtk_external_sim_only_slots=0
 ro.vendor.mtk_lte_support=1
 ro.vendor.mtk_md1_support=9
+ro.vendor.mtk_md_sbp_custom_value=0x07
 ro.vendor.mtk_md_world_mode_support=1
 ro.vendor.mtk_privacy_protection_lock=1
 ro.vendor.mtk_protocol1_rat_config=Lf/Lt/W/G

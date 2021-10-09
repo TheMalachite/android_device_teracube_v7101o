@@ -1,4 +1,4 @@
-# Device proprietary files - from full_v7101o-user 10 QP1A.190711.020 q0mp1t1v1001bsp release-keys, unless pinned
+# Device proprietary files - from full_v7101o-user 10 QP1A.190711.020 q0mp1t1v1002bsp release-keys, unless pinned
 
 # AEE
 vendor/bin/rttv
@@ -1219,6 +1219,7 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # Radio
 vendor/bin/hw/mtkfusionrild
+vendor/bin/hw/vendor.mediatek.hardware.mms@1.3-service
 vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
@@ -1239,6 +1240,7 @@ vendor/etc/init/init.md_apps.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/ppl_agent.rc
+vendor/etc/init/vendor.mediatek.hardware.mms@1.3-service.rc
 vendor/etc/DSM.xml
 vendor/etc/DSM_config.xml
 vendor/etc/ecc_list.xml
@@ -1251,6 +1253,7 @@ vendor/etc/ecc_list_OP18.xml
 vendor/etc/ecc_list_OP20.xml
 vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
+vendor/lib/hw/vendor.mediatek.hardware.mms@1.3-impl.so
 vendor/lib/libcares_naptr.so
 vendor/lib/libcarrierconfig.so
 vendor/lib/libccci_util.so
@@ -1270,7 +1273,12 @@ vendor/lib/libstorage_otp.so
 vendor/lib/libsysenv.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib/libutinterface_md.so
+vendor/lib/vendor.mediatek.hardware.mms@1.0.so
+vendor/lib/vendor.mediatek.hardware.mms@1.1.so
+vendor/lib/vendor.mediatek.hardware.mms@1.2.so
+vendor/lib/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
+vendor/lib64/hw/vendor.mediatek.hardware.mms@1.3-impl.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libcarrierconfig.so
 vendor/lib64/libccci_util.so
@@ -1300,6 +1308,10 @@ vendor/lib64/libssl-ss.so
 vendor/lib64/libsysenv.so
 vendor/lib64/libutinterface_custom_md.so
 vendor/lib64/libutinterface_md.so
+vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
+vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
+vendor/lib64/vendor.mediatek.hardware.mms@1.2.so
+vendor/lib64/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so
