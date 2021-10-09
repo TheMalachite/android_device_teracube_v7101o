@@ -12,7 +12,7 @@
     "target_path": "kernel/teracube/v7101o"
  },
  {
-    "repository": "PixelExperience/device_mediatek_sepolicy_vndr",
-    "target_path" : "device/mediatek/sepolicy_vndr"
+    "repository": "android_device_mediatek_sepolicy",
+    "target_path" : "device/mediatek/sepolicy"
  }
 ]
