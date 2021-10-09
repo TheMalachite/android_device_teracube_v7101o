@@ -55,7 +55,7 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        bin/vtservice)
+        lib/libsink.so)
             "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
             ;;
         vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek)
