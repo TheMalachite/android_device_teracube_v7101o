@@ -205,6 +205,7 @@ PRODUCT_PACKAGES += \
     init.mt6771.usb.rc \
     init.sensor_1_0.rc \
     fstab.mt6771 \
+    fstab.mt6771_ramdisk \
     ueventd.mt6771.rc \
     partition_permission.sh \
     throttle.sh
