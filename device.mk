@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
-    libaudiofondation.vendor \
+    libaudiofoundation.vendor \
     libtinycompress
 
 PRODUCT_COPY_FILES += \
