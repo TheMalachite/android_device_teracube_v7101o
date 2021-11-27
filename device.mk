@@ -203,6 +203,7 @@ PRODUCT_PACKAGES += \
     init.modem.rc \
     init.mt6771.rc \
     init.mt6771.usb.rc \
+    init.recovery.mt6771.rc \
     init.sensor_1_0.rc \
     fstab.mt6771 \
     fstab.mt6771_ramdisk \
