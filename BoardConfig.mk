@@ -5,7 +5,6 @@
 #
 
 DEVICE_PATH := device/teracube/v7101o
-BOARD_VENDOR := teracube
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -29,12 +28,6 @@ TARGET_OTA_ASSERT_DEVICE := Teracube_One,v7101o
 
 # AVB (Android Verified Boot)
 BOARD_AVB_ENABLE := false
-
-# Audio
-USE_CUSTOM_AUDIO_POLICY := 1
-
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := v7101o
