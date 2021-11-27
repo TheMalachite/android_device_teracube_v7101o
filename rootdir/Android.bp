@@ -39,13 +39,6 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "ueventd.mt6771.rc",
-    filename: "ueventd.rc",
-    src: "etc/ueventd.mt6771.rc",
-    vendor: true,
-}
-
 sh_binary {
     name: "partition_permission.sh",
     src: "bin/partition_permission.sh",
